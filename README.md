@@ -16,4 +16,4 @@ npm run dev
 
 ## Check it out live  
 
-Go to [CourseCrunch][egge]
+Go to [egge](http://localhost:5173/modules)http://localhost:5173/modules]
