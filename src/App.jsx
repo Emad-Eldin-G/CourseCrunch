@@ -3,14 +3,16 @@ import {ModulesFilterContext} from "./Context/ModulesFilter.jsx";
 import '@radix-ui/themes/styles.css';
 
 import './App.css'
-import NavBar from './Components/navBar.jsx'
+import NavBar from './Components/Nav/navBar.jsx'
 import Footer from './Components/footer.jsx'
-import MobileNav from './Components/MobileNav.jsx'
+import MobileNav from './Components/Nav/MobileNav.jsx'
 import ActivityPage from './Pages/ActivityPage.jsx'
 import ModulesPage from './Pages/ModulesPage.jsx'
 import ModulePage from './Pages/ModulePage.jsx'
 import LecturersPage from './Pages/LecturersPage.jsx'
 import Lecturer from './Pages/Lecturer.jsx'
+import Profile from './Pages/Profile.jsx'
+import Error from './Pages/Error.jsx'
 
 
 import { motion } from "framer-motion"
@@ -40,16 +42,21 @@ function App() {
 
         <Routes>
             {/* Define other routes that you need*/}
+            <Route path="" element={<ActivityPage />} />
             <Route path="/" element={<ActivityPage />} />
 
             <Route path="/modules" element={<ModulesPage />} />
-            <Route path="/modules/CO117" element={<ActivityPage />} />
+            <Route path="/modules/CO117" element={<ModulePage />} />
             <Route path="/modules/RM001" element={<ModulePage />} />
             <Route path="/modules/PF101" element={<ModulePage />} />
 
             <Route path="/Lecturers" element={<LecturersPage />} />
             <Route path="/Lecturers/John Doe" element={<Lecturer />} />
             <Route path="/Lecturers/Emilia Stones" element={<Lecturer />} />
+
+            <Route path={"/profile"} element={<Profile />} />
+
+            <Route path={"*"} element={<Error />} />
 
         </Routes>
 

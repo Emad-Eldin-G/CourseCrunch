@@ -2,7 +2,7 @@ import {useEffect, useState} from 'react'
 import { motion } from "framer-motion"
 import {Route, Routes} from "react-router-dom";
 import FilterBar from "../Components/Filter/FilterBar.jsx";
-import MobileFilter from "../Components/MobileFilter.jsx";
+import MobileFilter from "../Components/Filter/MobileFilter.jsx";
 import star from "../assets/star.svg";
 import halfstar from "../assets/halfstar.svg";
 
@@ -35,8 +35,8 @@ function ModulesPage() {
             <div id={"Module-Cards"}
                  className={"w-full h-full p-10 flex flex-row flex-wrap sm:flex-col gap-10 sm:gap-5 items-center justify-center text-gray-700"}>
 
-                    {modules.map((module) => (
-                        <div key={module.id} className={"flex flex-col w-96 h-96 sm:h-auto border-grey border-2 p-5 rounded-md"}>
+                    {modules.map((module, index) => (
+                        <div id={"module"} name={"module"} key={index} className={"flex flex-col w-96 h-96 sm:h-auto border-grey border-2 p-5 rounded-md"}>
                             <p className={"text-3xl text-gray-700 font-bold"}>{module.moduleCode}</p>
                             <img src={module.image} alt={"moduleImage"} className={"max-w-20 max-h-20"}/>
                             <br/>
@@ -52,13 +52,10 @@ function ModulesPage() {
                             <p className={"font-bold"}>Year of Study: <span className={"font-normal"}>{module.yearOfStudy}</span></p>
                             <p className={"font-bold"}>Updated: <span className={"font-normal"} id={"last-updated"}>{module.lastUpdated}</span></p>
                             <div className={"flex flex-row gap-2"}>
-                                <img src={star} alt={"star"} className={"w-5 h-5"}/>
-                                <img src={star} alt={"star"} className={"w-5 h-5"}/>
-                                <img src={star} alt={"star"} className={"w-5 h-5"}/>
-                                <img src={star} alt={"star"} className={"w-5 h-5"}/>
-                                <img src={halfstar} alt={"half star"} className={"w-5 h-5"} />
+                                {/* Render stars based on rating, so 3.5 would render 3 stars and 1 halfstar */}
+
                             </div>
-                            <button className={"w-36 rounded-md p-2 bg-gray-400 mt-auto"}>Find out more</button>
+                            <button className={"w-36 rounded-md p-2 bg-gray-400 mt-auto"} id={"growHover"}>Find out more</button>
                         </div>
                     ))
                     }
