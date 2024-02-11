@@ -1,0 +1,107 @@
+{
+    "Year_1_Modules": {
+      "Mandatory_Modules": [
+        {
+          "ModuleName": "Computing Fundamentals",
+          "Lecturers": ["Yi Hong", "James Logue"]
+        },
+        {
+          "ModuleName": "Programming Fundamentals",
+          "Lecturers": ["Emannuel M. Tadjouddine"]
+        },
+        {
+          "ModuleName": "Mathematics Fundamentals",
+          "Lecturers": ["Tatiana Tyukina"]
+        },
+        {
+          "ModuleName": "Computer Architecture",
+          "Lecturers": ["Roy L. Crole"]
+        },
+        {
+          "ModuleName": "Requirements Engineering and Professional Practice",
+          "Lecturers": ["Matthias Heintz", "Shigang Yue"]
+        },
+        {
+          "ModuleName": "Introduction to Object Oriented Programming",
+          "Lecturers": ["Ghaith Al-Tameemi"]
+        },
+        {
+          "ModuleName": "Algorithms, Data Structures and Advanced Programming",
+          "Lecturers": ["Mohammad Reza R.Zare"]
+        },
+        {
+          "ModuleName": "Foundations of Computation",
+          "Lecturers": ["Irek Ulidowski"]
+        }
+      ]
+    },
+    "Year_2_Modules": {
+      "Mandatory_Modules": [
+        {
+          "ModuleName": "Software Architecture and System Development (double module)",
+          "Lecturers": ["Harper King", "Grace Cooper"]
+        },
+        {
+          "ModuleName": "Software Engineering Project (double module)",
+          "Lecturers": ["Logan Wright"]
+        },
+        {
+          "ModuleName": "Operating Systems and Networks",
+          "Lecturers": ["Aiden Reed", "Noah Wood"]
+        },
+        {
+          "ModuleName": "Database and Domain Modelling",
+          "Lecturers": ["Isabella Morgan"]
+        },
+        {
+          "ModuleName": "User Interface Design and Evaluation",
+          "Lecturers": ["Ryan Phillips", "Lily Carter"]
+        }
+      ],
+      "Optional_Modules": [
+        {
+          "ModuleName": "Data Analytics",
+          "Lecturers": ["Samuel Baker"]
+        },
+        {
+          "ModuleName": "Entertainment Technology",
+          "Lecturers": ["William Hall", "Lucas Clark"]
+        },
+        {
+          "ModuleName": "Foundations of Artificial Intelligence",
+          "Lecturers": ["Charlotte Harris", "Emma Wilson"]
+        }
+      ]
+    },
+    "Year_3_Modules": {
+      "Mandatory_Modules": [
+        {
+          "ModuleName": "Computers, Society and Professionalism",
+          "Lecturers": ["Lebron smith"]
+        },
+        {
+          "ModuleName": "Computer Science Project (double module)",
+          "Lecturers": ["Daniel Brown"]
+        }
+      ],
+      "Optional_Modules": [
+        {
+          "ModuleName": "Computational Intelligence and Software Engineering",
+          "Lecturers": ["Sarah Johnson", "Alexander White"]
+        },
+        {
+          "ModuleName": "Mobile and Web Applications",
+          "Lecturers": ["Benjamin Davis"]
+        },
+        {
+          "ModuleName": "C++ Programming",
+          "Lecturers": ["Bob Burgess"]
+        },
+        {
+          "ModuleName": "Internet and Cloud Computing",
+          "Lecturers": ["Ava Anderson", "Ethan Martinez"]
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,305 @@
+{
+    "Year_1": {
+      "Mandatory_Modules": {
+        "Computing_Fundamentals": [
+          {
+            "Review": "I found Computing Fundamentals to be an excellent introductory course. Professor Hong's lectures were clear and concise, making complex topics easy to understand. The module covered a wide range of essential concepts in computing, and the practical exercises were invaluable in reinforcing theoretical knowledge. Professor Hong's approachability and willingness to help outside of class greatly enhanced my learning experience. Overall, I highly recommend this module to anyone interested in computer science.",
+            "Student": "Emma Johnson",
+            "Lecturer_convenor": "Yi Hong",
+            "Module_Rating": "4.3/5",
+            "Lecturer_convenor_Rating": "4.5/5"
+          },
+          {
+            "Review": "Computing Fundamentals provided a solid foundation in computing principles. While the content was comprehensive, I found some aspects of the course to be challenging to grasp. Professor Logue's lectures were informative, but at times, they lacked engagement. The practical sessions were helpful in reinforcing concepts, but I wish there were more opportunities for hands-on learning. Overall, it was a decent learning experience, but there is room for improvement in the delivery of the material.",
+            "Student": "Jack Thompson",
+            "Lecturer_convenor": "James Logue",
+            "Module_Rating": "3.8/5",
+            "Lecturer_convenor_Rating": "4/5"
+          },
+          {
+            "Review": "Computing Fundamentals was a valuable course that provided a strong foundation in computing principles. Professor Hong's lectures were well-structured and easy to follow, making complex topics understandable. The module covered a broad range of essential concepts, and the practical exercises were beneficial in applying theoretical knowledge. Professor Hong's willingness to assist students both in and out of class was commendable. Overall, it was a rewarding learning experience, and I would recommend this module to anyone interested in computer science.",
+            "Student": "David Chen",
+            "Lecturer_convenor": "Yi Hong",
+            "Module_Rating": "4.0/5",
+            "Lecturer_convenor_Rating": "4.2/5"
+          }
+        ],
+        "Programming_Fundamentals": [
+          {
+            "Review": "Programming Fundamentals was an outstanding course. Professor Tadjouddine's passion for programming was evident in every lecture, making the material engaging and accessible. The assignments were well-designed, challenging students to apply theoretical knowledge to real-world problems. Professor Tadjouddine's dedication to student success was evident through his availability for questions and feedback. Overall, it was a rewarding learning experience, and I would highly recommend this module to anyone interested in programming.",
+            "Student": "Sarah Smith",
+            "Lecturer_convenor": "Emannuel M. Tadjouddine",
+            "Module_Rating": "4.5/5",
+            "Lecturer_convenor_Rating": "4.8/5"
+          },
+          {
+            "Review": "Programming Fundamentals provided a comprehensive introduction to programming concepts. Professor Tadjouddine's lectures were engaging, and the practical exercises were valuable in reinforcing theoretical knowledge. The assignments were challenging yet achievable, allowing me to develop my programming skills effectively. Professor Tadjouddine's feedback was constructive and helped me improve throughout the course. Overall, it was an enriching learning experience, and I would recommend this module to anyone interested in programming.",
+            "Student": "Alex Johnson",
+            "Lecturer_convenor": "Emannuel M. Tadjouddine",
+            "Module_Rating": "4.2/5",
+            "Lecturer_convenor_Rating": "4.5/5"
+          },
+          {
+            "Review": "Programming Fundamentals exceeded my expectations. Professor Tadjouddine's passion for programming was infectious, making the lectures engaging and enjoyable. The assignments were challenging yet manageable, allowing me to develop my programming skills effectively. Professor Tadjouddine's feedback was constructive and helped me improve my coding practices. The practical nature of the course enabled me to apply theoretical knowledge to real-world problems. Overall, it was an excellent learning experience, and I would highly recommend this module to aspiring programmers.",
+            "Student": "Emily Parker",
+            "Lecturer_convenor": "Emannuel M. Tadjouddine",
+            "Module_Rating": "4.3/5",
+            "Lecturer_convenor_Rating": "4.6/5"
+          }
+        ]
+      }
+    },
+  
+
+  
+    "Year_2": {
+      "Mandatory_Modules": {
+        "Software_Architecture_and_System_Development": [
+          {
+            "Review": "I thoroughly enjoyed studying Software Architecture and System Development. Prof. Adams' lectures were engaging and insightful, providing a comprehensive understanding of the subject matter. The assignments were challenging yet rewarding, allowing for practical application of theoretical concepts. Prof. Adams' expertise and support greatly contributed to my learning experience. Overall, it was an enriching module that equipped me with valuable skills for my future career.",
+            "Student": "Lee Adams",
+            "Lecturer_convenor": "Harper King",
+            "Module_Rating": "4.5/5",
+            "Lecturer_convenor_Rating": "4.8/5"
+          },
+          {
+            "Review": "Software Architecture and System Development provided valuable insights into the field. Dr. Roberts' lectures were informative, but at times felt lacking in enthusiasm and clarity. The assignments were challenging and relevant, but some additional guidance would have been beneficial. Although the module content was comprehensive, I believe there's room for improvement in course delivery. Overall, it was a satisfactory learning experience, but there are areas that could be enhanced for future cohorts.",
+            "Student": "Tiype Cheit",
+            "Lecturer_convenor": "Grace Cooper",
+            "Module_Rating": "3.9/5",
+            "Lecturer_convenor_Rating": "3.5/5"
+          },
+          {
+            "Review": "Software Architecture and System Development offered a solid foundation in the subject matter. Prof. Clark's lectures were clear, well-structured, and highly informative. The assignments were challenging yet manageable, providing opportunities for practical application. Prof. Clark's approachable nature and willingness to assist outside of class were greatly appreciated. Overall, it was a rewarding learning experience that prepared me well for future endeavors in the field.",
+            "Student": "Justin Jefferson",
+            "Lecturer_convenor": "Harper King",
+            "Module_Rating": "4.2/5",
+            "Lecturer_convenor_Rating": "4.3/5"
+          }
+        ],
+        "Software_Engineering_Project": [
+          {
+            "Review": "The Software Engineering Project module was exceptional. Dr. Johnson's guidance and support were invaluable throughout the project. The module provided a realistic experience of working on a software project in a team setting. The project requirements were well-defined, and the milestones helped keep the team on track. Dr. Johnson's feedback was constructive and helped us improve our deliverables. Overall, it was a highly rewarding experience that prepared me well for real-world software development projects.",
+            "Student": "Jake Williams",
+            "Lecturer_convenor": "Logan Wright",
+            "Module_Rating": "4.7/5",
+            "Lecturer_convenor_Rating": "4.9/5"
+          },
+          {
+            "Review": "The Software Engineering Project module was a valuable learning experience. Prof. Davis provided clear instructions and expectations for the project. The project allowed us to apply theoretical concepts to practical scenarios, enhancing our understanding of software engineering principles. Prof. Davis' feedback was helpful in guiding our project development. However, there were some communication challenges within the team that impacted our progress. Overall, it was a positive learning experience, but improvements could be made in team collaboration.",
+            "Student": "Emily Brown",
+            "Lecturer_convenor": "Logan Wright",
+            "Module_Rating": "4.0/5",
+            "Lecturer_convenor_Rating": "4.2/5"
+          },
+          {
+            "Review": "The Software Engineering Project module provided valuable insights into software development processes. Dr. Smith's lectures were informative, but I found some topics to be overly complex. The project tasks were challenging and required extensive collaboration within the team. However, there were instances where the project requirements were unclear, leading to confusion. Dr. Smith provided adequate support, but there were delays in feedback, impacting our progress. Overall, it was a decent learning experience, but there are areas that could be improved for future cohorts.",
+            "Student": "Samantha Lee",
+            "Lecturer_convenor": "Logan Wright",
+            "Module_Rating": "3.5/5",
+            "Lecturer_convenor_Rating": "3.8/5"
+          }
+        ]
+      },
+      "Optional_Modules": {
+        "Data_Analytics": [
+          {
+            "Review": "Data Analytics was an outstanding module. Samuel Baker's lectures were clear, concise, and highly informative, providing valuable insights into data analysis techniques and methodologies. The module covered a wide range of topics, from data visualization to predictive modeling, fostering critical thinking and practical skills. Samuel Baker's guidance and support were instrumental in deepening our understanding of the subject matter. Overall, it was a highly rewarding module that equipped me with essential skills for analyzing and interpreting data effectively.",
+            "Student": "Emma Thompson",
+            "Lecturer_convenor": "Samuel Baker",
+            "Module_Rating": "4.8/5",
+            "Lecturer_convenor_Rating": "4.9/5"
+          },
+          {
+            "Review": "Data Analytics provided valuable insights into the principles and practices of data analysis. Samuel Baker's lectures were engaging and informative, offering practical insights into data mining and machine learning techniques. The assignments were challenging yet rewarding, allowing for hands-on experience in analyzing real-world datasets. Samuel Baker's support and expertise greatly contributed to my learning experience. Overall, it was a highly beneficial module that prepared me well for future endeavors in data analytics.",
+            "Student": "Ryan Phillips",
+            "Lecturer_convenor": "Samuel Baker",
+            "Module_Rating": "4.5/5",
+            "Lecturer_convenor_Rating": "4.7/5"
+          },
+          {
+            "Review": "Data Analytics was a valuable module that provided a comprehensive overview of data analysis techniques. Samuel Baker's lectures were informative and well-structured, making complex concepts easy to understand. The assignments were relevant and allowed for practical application of theoretical knowledge. Samuel Baker was approachable and supportive, aiding whenever needed. Overall, it was a positive learning experience that enhanced my skills in data analysis and interpretation.",
+            "Student": "Lily Carter",
+            "Lecturer_convenor": "Samuel Baker",
+            "Module_Rating": "4.3/5",
+            "Lecturer_convenor_Rating": "4.5/5"
+          }
+        ],
+        "Entertainment_Technology": {
+            "Reviews": [
+              {
+                "Student": "Mebom Bomlatt",
+                "Lecturer_convenors": ["William Hall", "Lucas Clark"],
+                "Module": "Entertainment Technology",
+                "Module_Rating": "4.6/5",
+                "Lecturer_convenors_Rating": "4.8/5",
+                "Review": "Entertainment Technology was an exceptional module. William Hall and Lucas Clark's lectures were engaging and insightful, providing valuable insights into the latest advancements in entertainment technology. The module covered a wide range of topics, from virtual reality to interactive storytelling, fostering creativity and innovation. The hands-on projects allowed for practical application of theoretical knowledge, enhancing our understanding of the subject matter. William Hall and Lucas Clark's guidance and support greatly contributed to our learning experience. Overall, it was a highly rewarding module that prepared us well for careers in the entertainment industry."
+              },
+              {
+                "Student": "Ivan Scott",
+                "Lecturer_convenors": ["William Hall", "Lucas Clark"],
+                "Module": "Entertainment Technology",
+                "Module_Rating": "4.4/5",
+                "Lecturer_convenors_Rating": "4.6/5",
+                "Review": "Entertainment Technology provided valuable insights into the latest trends and technologies shaping the entertainment industry. William Hall and Lucas Clark's lectures were informative and well-structured, offering practical insights into game design, multimedia production, and immersive experiences. The module projects were challenging yet stimulating, allowing for hands-on experimentation with cutting-edge tools and techniques. William Hall and Lucas Clark's expertise and support were invaluable in guiding our learning journey. Overall, it was a highly beneficial module that equipped us with essential skills for pursuing careers in entertainment technology."
+              },
+              {
+                "Student": "Drake Long",
+                "Lecturer_convenors": ["William Hall", "Lucas Clark"],
+                "Module": "Entertainment Technology",
+                "Module_Rating": "4.5/5",
+                "Lecturer_convenors_Rating": "4.7/5",
+                "Review": "Entertainment Technology was a valuable module that provided a comprehensive overview of the entertainment industry. William Hall and Lucas Clark's lectures were engaging and informative, covering a wide range of topics, from digital media production to interactive experiences. The module projects were challenging yet rewarding, allowing for hands-on exploration of various entertainment technologies. William Hall and Lucas Clark's guidance and feedback were instrumental in our learning process. Overall, it was a positive learning experience that deepened our understanding of entertainment technology concepts and applications."
+              }
+            ]
+          },
+          "Foundations_of_Artificial_Intelligence": {
+            "Reviews": [
+              {
+                "Student": "Kevin Purant",
+                "Lecturer_convenors": ["Charlotte Harris", "Emma Wilson"],
+                "Module": "Foundations of Artificial Intelligence",
+                "Module_Rating": "4.7/5",
+                "Lecturer_convenors_Rating": "4.9/5",
+                "Review": "Foundations of Artificial Intelligence was an outstanding module. Charlotte Harris and Emma Wilson's lectures were clear, concise, and highly informative, providing valuable insights into the principles and techniques of AI. The module covered a wide range of topics, from machine learning to natural language processing, fostering critical thinking and problem-solving skills. The assignments were challenging yet engaging, allowing for practical application of AI concepts. Charlotte Harris and Emma Wilson's guidance and support were instrumental in deepening our understanding of the subject matter. Overall, it was a highly rewarding module that equipped us with essential skills for tackling real-world AI challenges."
+              },
+              {
+                "Student": "Mohammed Mohammed",
+                "Lecturer_convenors": ["Charlotte Harris", "Emma Wilson"],
+                "Module": "Foundations of Artificial Intelligence",
+                "Module_Rating": "4.6/5",
+                "Lecturer_convenors_Rating": "4.8/5",
+                "Review": "Foundations of Artificial Intelligence provided valuable insights into the theory and applications of AI. Charlotte Harris and Emma Wilson's lectures were engaging and well-structured, offering practical insights into AI algorithms and methodologies. The module projects were challenging yet rewarding, allowing for hands-on exploration of AI techniques. Charlotte Harris and Emma Wilson's expertise and support greatly enriched the learning experience. Overall, it was a highly beneficial module that prepared us well for tackling AI problems in various domains."
+              },
+              {
+                "Student": "Alan Chestefield",
+                "Lecturer_convenors": ["Charlotte Harris", "Emma Wilson"],
+                "Module": "Foundations of Artificial Intelligence",
+                "Module_Rating": "4.5/5",
+                "Lecturer_convenors_Rating": "4.7/5",
+                "Review": "Foundations of Artificial Intelligence was a valuable module that provided a comprehensive overview of AI principles and techniques. Charlotte Harris and Emma Wilson's lectures were informative and insightful, covering a wide range of topics, from neural networks to robotics. The module assignments were challenging and thought-provoking, allowing for practical application of AI concepts. Charlotte Harris and Emma Wilson's guidance and feedback were instrumental in our learning process. Overall, it was a positive learning experience that deepened our understanding of AI concepts and applications."
+              }
+            ]
+          }
+  
+    }
+    },
+
+    "Year_3": {
+        "Optional_Modules": {
+          "Computational_Intelligence_and_Software_Engineering": {
+            "Reviews": [
+              {
+                "Student": "John Thompson",
+                "Lecturer_convenors": ["Sarah Johnson", "Alexander White"],
+                "Module": "Computational Intelligence and Software Engineering",
+                "Module_Rating": "4.6/5",
+                "Lecturer_convenors_Rating": "4.8/5",
+                "Review": "Computational Intelligence and Software Engineering was an exceptional module. Sarah Johnson and Alexander White's lectures were engaging and insightful, providing valuable insights into the intersection of computational intelligence and software engineering. The module covered a wide range of topics, from genetic algorithms to swarm intelligence, fostering critical thinking and problem-solving skills. The hands-on projects allowed for practical application of theoretical knowledge, enhancing our understanding of the subject matter. Sarah Johnson and Alexander White's guidance and support greatly contributed to our learning experience. Overall, it was a highly rewarding module that prepared us well for tackling real-world challenges in computational intelligence and software engineering."
+              },
+              {
+                "Student": "Ilan Martinez",
+                "Lecturer_convenors": ["Sarah Johnson", "Alexander White"],
+                "Module": "Computational Intelligence and Software Engineering",
+                "Module_Rating": "4.5/5",
+                "Lecturer_convenors_Rating": "4.7/5",
+                "Review": "Computational Intelligence and Software Engineering provided valuable insights into advanced computational techniques and their applications in software engineering. Sarah Johnson and Alexander White's lectures were informative and well-structured, offering practical insights into AI algorithms, evolutionary computing, and optimization methods. The module projects were challenging yet rewarding, allowing for hands-on exploration of computational intelligence techniques. Sarah Johnson and Alexander White's expertise and support were invaluable in guiding our learning journey. Overall, it was a highly beneficial module that equipped us with essential skills for tackling complex software engineering problems."
+              },
+              {
+                "Student": "Taylor Myth",
+                "Lecturer_convenors": ["Sarah Johnson", "Alexander White"],
+                "Module": "Computational Intelligence and Software Engineering",
+                "Module_Rating": "4.4/5",
+                "Lecturer_convenors_Rating": "4.6/5",
+                "Review": "Computational Intelligence and Software Engineering was a valuable module that provided a comprehensive overview of advanced computational techniques. Sarah Johnson and Alexander White's lectures were clear and informative, covering a wide range of topics, from fuzzy logic to neural networks. The module assignments were challenging and thought-provoking, allowing for practical application of computational intelligence concepts. Sarah Johnson and Alexander White's guidance and feedback were instrumental in our learning process. Overall, it was a positive learning experience that deepened our understanding of computational intelligence and its relevance to software engineering."
+              }
+            ]
+          },
+          "Mobile_and_Web_Applications": {
+            "Reviews": [
+              {
+                "Student": "Emily Thompson",
+                "Lecturer_convenor": "Benjamin Davis",
+                "Module": "Mobile and Web Applications",
+                "Module_Rating": "4.5/5",
+                "Lecturer_convenor_Rating": "4.7/5",
+                "Review": "The Mobile and Web Applications module, led by Benjamin Davis, was an enriching experience. Benjamin's expertise in the field was evident in his well-structured and informative lectures. The module provided comprehensive insights into the principles and best practices of mobile and web application development. The hands-on projects allowed us to apply our knowledge in real-world scenarios, enhancing our practical skills. Benjamin's guidance and support throughout the module were invaluable, contributing to our overall learning experience. Overall, it was a highly beneficial module that equipped us with essential skills for developing mobile and web applications."
+              },
+              {
+                "Student": "Jackson Scott",
+                "Lecturer_convenor": "Benjamin Davis",
+                "Module": "Mobile and Web Applications",
+                "Module_Rating": "4.3/5",
+                "Lecturer_convenor_Rating": "4.6/5",
+                "Review": "The Mobile and Web Applications module, facilitated by Benjamin Davis, was a valuable learning experience. Benjamin's lectures were engaging and informative, covering a wide range of topics related to mobile and web application development. The module projects provided practical exposure to various development frameworks and technologies, allowing us to build functional applications. Benjamin's feedback and guidance were instrumental in our learning journey, helping us overcome challenges and improve our skills. Overall, it was a positive learning experience that deepened our understanding of mobile and web application development."
+              },
+              {
+                "Student": "Mia Yales",
+                "Lecturer_convenor": "Benjamin Davis",
+                "Module": "Mobile and Web Applications",
+                "Module_Rating": "4.4/5",
+                "Lecturer_convenor_Rating": "4.8/5",
+                "Review": "The Mobile and Web Applications module, overseen by Benjamin Davis, was an excellent opportunity to explore the intricacies of application development. Benjamin's expertise and passion for the subject were evident in his engaging lectures and practical demonstrations. The module projects provided hands-on experience with industry-standard tools and techniques, preparing us for real-world challenges in application development. Benjamin's guidance and support were invaluable in navigating complex concepts and refining our projects. Overall, it was a highly rewarding module that equipped us with valuable skills for building mobile and web applications."
+              }
+            ]
+          },
+          "C++_Programming": {
+            "Reviews": [
+              {
+                "Student": "James Scott",
+                "Lecturer_convenor": "Bob Burgess",
+                "Module": "C++ Programming",
+                "Module_Rating": "4.6/5",
+                "Lecturer_convenor_Rating": "4.8/5",
+                "Review": "The C++ Programming module, led by Bob Burgess, was an exceptional learning experience. Bob's deep knowledge of the language and clear teaching style made complex concepts easy to understand. The module covered a wide range of topics, from basic syntax to advanced data structures and algorithms, providing a solid foundation in C++ programming. The hands-on assignments and coding exercises allowed us to apply our learning in practical scenarios, enhancing our problem-solving skills. Bob's guidance and support were instrumental in our learning journey, making the module highly rewarding overall."
+              },
+              {
+                "Student": "Gojo White",
+                "Lecturer_convenor": "Bob Burgess",
+                "Module": "C++ Programming",
+                "Module_Rating": "4.5/5",
+                "Lecturer_convenor_Rating": "4.7/5",
+                "Review": "The C++ Programming module, taught by Bob Burgess, was an enriching experience. Bob's comprehensive lectures and practical examples helped us grasp the intricacies of C++ programming effectively. The module assignments were challenging yet engaging, allowing us to practice and reinforce our understanding of the language. Bob's approachable demeanor and willingness to assist outside of class greatly contributed to our learning experience. Overall, it was a highly beneficial module that prepared us well for tackling C++ programming challenges in various domains."
+              },
+              {
+                "Student": "Jackson Scott",
+                "Lecturer_convenor": "Bob Burgess",
+                "Module": "C++ Programming",
+                "Module_Rating": "4.4/5",
+                "Lecturer_convenor_Rating": "4.6/5",
+                "Review": "The C++ Programming module, led by Bob Burgess, was a valuable component of my academic journey. Bob's expertise and passion for the subject were evident in his engaging lectures and insightful explanations. The module covered essential C++ concepts in depth, equipping us with the skills needed to write efficient and robust code. The practical assignments and coding projects provided hands-on experience and reinforced our learning effectively. Bob's encouragement and support throughout the module were greatly appreciated, making it a highly rewarding learning experience overall."
+              }
+            ]
+          },
+
+          "Internet_and_Cloud_Computing": {
+            "Reviews": [
+              {
+                "Student": "Danny Garcia",
+                "Lecturer_convenors": ["Ava Anderson", "Ethan Martinez"],
+                "Module": "Internet and Cloud Computing",
+                "Module_Rating": "4.7/5",
+                "Lecturer_convenor_Rating": "4.9/5",
+                "Review": "The Internet and Cloud Computing module, co-led by Ava Anderson and Ethan Martinez, was an outstanding learning experience. Ava and Ethan's combined expertise provided comprehensive insights into the intricacies of internet technologies and cloud computing. The module covered a wide range of topics, from networking fundamentals to cloud service models, fostering a deep understanding of the subject matter. Hands-on projects allowed us to apply theoretical concepts in practical scenarios, enhancing our problem-solving skills. Ava and Ethan's guidance and support were invaluable, contributing to our overall learning experience. Overall, it was a highly rewarding module that prepared us well for the challenges of modern computing environments."
+              },
+              {
+                "Student": "Jackson Scott",
+                "Lecturer_convenors": ["Ava Anderson", "Ethan Martinez"],
+                "Module": "Internet and Cloud Computing",
+                "Module_Rating": "4.6/5",
+                "Lecturer_convenor_Rating": "4.8/5",
+                "Review": "The Internet and Cloud Computing module, co-taught by Ava Anderson and Ethan Martinez, was an enriching experience. Ava and Ethan's expertise and engaging teaching style made complex concepts accessible and interesting. The module provided a comprehensive overview of internet protocols, cloud platforms, and distributed computing principles. Practical assignments and projects allowed us to gain hands-on experience with cloud technologies, preparing us for real-world challenges. Ava and Ethan's support and encouragement throughout the module were instrumental in our learning journey. Overall, it was a highly beneficial module that equipped us with valuable skills for navigating the internet and cloud computing landscape."
+              },
+              {
+                "Student": "Mia Garcia",
+                "Lecturer_convenors": ["Ava Anderson", "Ethan Martinez"],
+                "Module": "Internet and Cloud Computing",
+                "Module_Rating": "4.5/5",
+                "Lecturer_convenor_Rating": "4.7/5",
+                "Review": "The Internet and Cloud Computing module, led by Ava Anderson and Ethan Martinez, was a valuable component of my academic journey. Ava and Ethan's expertise in the field and dynamic teaching methods kept the class engaged and motivated. The module provided a comprehensive understanding of internet protocols, cloud architectures, and virtualization technologies. Practical assignments and lab exercises allowed us to apply theoretical knowledge in a hands-on manner, reinforcing our learning effectively. Ava and Ethan's dedication to our success and willingness to provide support outside of class greatly enhanced our learning experience. Overall, it was a highly rewarding module that equipped us with essential skills for leveraging internet and cloud technologies in our future endeavors."
+              }
+            ]
+          }
+        }
+        }
+      }
