@@ -12,7 +12,7 @@ function ActivityPage() {
     return (
         <div id={"wrapper"} className={"w-full h-full flex items-center justify-center"}>
             <div
-                className={"pl-5 pr-5 flex flex-col gap-10 items-center"}>
+                className={"pl-5 pr-5 flex flex-col gap-10 items-center mb-44"}>
 
                 <div className={"flex flex-row items-center gap-6 min-w-full"}>
                     <div id={"imageWrapper"} className={"basis-1/4"}>

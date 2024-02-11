@@ -1,0 +1,29 @@
+[
+  {
+    "title": "CO1107",
+    "imageSrc": "https://via.placeholder.com/150",
+    "lecturers": ["John Doe", "Emily Smith"],
+    "department": "Computing and Mathematical Sciences",
+    "yearOfStudy": 1,
+    "rating": [1, 1, 1, 1, 0.5],
+    "lastUpdated": "This semester"
+  },
+  {
+    "title": "BFC101",
+    "imageSrc": "https://via.placeholder.com/150",
+    "lecturers": ["Richard Edwards", "Samantha Gray"],
+    "department": "Computing and Mathematical Sciences",
+    "yearOfStudy": 1,
+    "rating": [1, 1, 1, 0.5],
+    "lastUpdated": "This year"
+  },
+  {
+    "title": "PF002",
+    "imageSrc": "https://via.placeholder.com/150",
+    "lecturers": ["Emilia Stone", "Yung Si"],
+    "department": "Computing and Mathematical Sciences",
+    "yearOfStudy": 1,
+    "rating": [1, 1, 1, 1],
+    "lastUpdated": "Last year"
+  }
+]
