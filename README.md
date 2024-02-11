@@ -9,3 +9,6 @@ Your unbiased academic partner 📚🧠
 ```
 npm install
 ```
+```
+npm run dev
+```
