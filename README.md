@@ -12,3 +12,8 @@ npm install
 ```
 npm run dev
 ```
+
+
+## Check it out live  
+
+Go to <a>CourseCrunch</a>
