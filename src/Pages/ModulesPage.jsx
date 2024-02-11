@@ -38,7 +38,7 @@ function ModulesPage() {
                     {modules.map((module, index) => (
                         <div id={"module"} name={"module"} key={index} className={"flex flex-col w-96 sm:h-auto border-grey border-2 p-5 rounded-md"}>
                             <p className={"text-3xl text-gray-700 font-bold mb-5"}>{module.title}</p>
-                            <img src={`src/assets/${module.title}.jpg`} alt={"moduleImage"} className={"max-w-full aspect-video rounded-md"}/>
+                            <img src={module.imageSrc} alt={"moduleImage"} className={"max-w-full aspect-video rounded-md"}/>
                             <br/>
                             <hr className={"w-full"}/>
                             <br/>

@@ -1,7 +1,7 @@
 [
   {
     "title": "CO1107",
-    "imageSrc": "https://via.placeholder.com/150",
+    "imageSrc": "src/assets/ModuleImages/CO1107.jpg",
     "lecturers": ["John Doe", "Emily Smith"],
     "department": "Computing and Mathematical Sciences",
     "yearOfStudy": 1,
@@ -10,7 +10,7 @@
   },
   {
     "title": "BFC101",
-    "imageSrc": "https://via.placeholder.com/150",
+    "imageSrc": "src/assets/ModuleImages/BFC101.jpg",
     "lecturers": ["Richard Edwards", "Samantha Gray"],
     "department": "Computing and Mathematical Sciences",
     "yearOfStudy": 1,
@@ -19,7 +19,7 @@
   },
   {
     "title": "PF002",
-    "imageSrc": "https://via.placeholder.com/150",
+    "imageSrc": "src/assets/ModuleImages/PF002.jpg",
     "lecturers": ["Emilia Stone", "Yung Si"],
     "department": "Computing and Mathematical Sciences",
     "yearOfStudy": 1,
