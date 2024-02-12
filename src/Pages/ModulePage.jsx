@@ -149,15 +149,15 @@ const ModulePage = () => {
                         <br/>
 
                         <div className={"flex flex-col gap-6"}>
-                            <div className={"flex flex-row md:flex-col gap-5 sm-p-5"}>
+                            <div className={"flex flex-row md:flex-col flex-nowrap gap-5"}>
                                 {comments.map((comment, index) => (
-                                    <div key={index} id={"growHover"} className={"flex flex-col w-1/3 sm:w-full gap-2 border-grey border-2 p-3 rounded-md transition-all ease-in-out"}>
-                                        <div className={"flex flex-row items-center"}>
+                                    <div key={index} id={"growHover"} className={"flex flex-col w-1/3 md:w-full gap-2 border-grey border-2 p-3 rounded-md transition-all ease-in-out"}>
+                                        <div className={"flex flex-row items-center w-full"}>
                                             <img src={userIcon} alt={"userIcon"} className={"mr-2 w-10 h-10 sm:w-7 sm:h-7"}/>
                                             <p className={"text-gray-700 font-bold md:text-sm"}>{comment.User}</p>
                                         </div>
                                             <hr className={"w-full"}/>
-                                        <div>
+                                        <div className={"w-full"}>
                                             <p className={"text-gray-700"}>{comment.Comment}</p>
                                         </div>
                                     </div>
