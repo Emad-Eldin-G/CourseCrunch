@@ -22,7 +22,7 @@ export default {
         'grey': '#8E8E8E',
         'leired': '#00A8B5'
       }
-    },
+    }
   },
   plugins: [],
 }

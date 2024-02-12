@@ -47,8 +47,7 @@ function App() {
             <Route path="/modules/:moduleCode" element={<ModulePage />} />
 
             <Route path="/Lecturers" element={<LecturersPage />} />
-            <Route path="/Lecturers/John Doe" element={<Lecturer />} />
-            <Route path="/Lecturers/Emilia Stones" element={<Lecturer />} />
+            <Route path="/Lecturers/:Lecturer" element={<Lecturer />} />
 
             <Route path={"/profile"} element={<Profile />} />
 
@@ -56,7 +55,7 @@ function App() {
 
         </Routes>
 
-          <Footer/>
+        <Footer/>
       </div>
   )
 }

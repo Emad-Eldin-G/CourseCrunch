@@ -18,7 +18,10 @@ function ActivityPage() {
                     <>
                     <div key={index} className={"flex flex-row items-center gap-6 min-w-full"}>
                         <div id={"imageWrapper"} className={"basis-1/4"}>
-                            <img src={eval(activity.pic)} alt={"upArrow"} className={"max-w-20 max-h-20"}/>
+                            <img src={
+                                activity.pic === "increase" ?
+                                    increase : decrease
+                            } alt={"upArrow"} className={"max-w-20 max-h-20"}/>
                         </div>
 
                         <div className={"basis-3/4 flex flex-col gap-1"}>
