@@ -1,6 +1,5 @@
 import {useEffect, useState, useContext} from 'react'
 import {ModulesFilterContext} from "./Context/ModulesFilter.jsx";
-import '@radix-ui/themes/styles.css';
 
 import './App.css'
 import NavBar from './Components/Nav/navBar.jsx'
@@ -15,7 +14,6 @@ import Profile from './Pages/Profile.jsx'
 import Error from './Pages/Error.jsx'
 
 
-import { motion } from "framer-motion"
 import {Route, Routes} from "react-router-dom";
 
 
