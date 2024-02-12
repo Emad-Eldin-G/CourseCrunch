@@ -1,13 +1,13 @@
-import logo from "../assets/logo.png";
-import { Link, Routes, Route } from "react-router-dom";
+import {Link, Routes, Route, useParams} from "react-router-dom";
 import { useState } from "react";
 
 
 const ModulePage = () => {
+    const { moduleCode } = useParams();
 
     return (
-        <div className={"w-full h-14 fixed bottom-0 bg-gray-800 flex items-center justify-center"}>
-            <p className={"text-gray-100"}>© 2024 CourseCrunch | IBM Hackathon</p>
+        <div className={"w-full h-full flex items-center"}>
+            <h1 className={"text-gray-700"}>{moduleCode}</h1>
         </div>
     );
 };

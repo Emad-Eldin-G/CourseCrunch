@@ -46,9 +46,7 @@ function App() {
             <Route path="/" element={<ActivityPage />} />
 
             <Route path="/modules" element={<ModulesPage />} />
-            <Route path="/modules/CO117" element={<ModulePage />} />
-            <Route path="/modules/RM001" element={<ModulePage />} />
-            <Route path="/modules/PF101" element={<ModulePage />} />
+            <Route path="/modules/:moduleCode" element={<ModulePage />} />
 
             <Route path="/Lecturers" element={<LecturersPage />} />
             <Route path="/Lecturers/John Doe" element={<Lecturer />} />

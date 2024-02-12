@@ -28,7 +28,8 @@ function FilterBar() {
           <div className={"flex flex-row items-center justify-center gap-12 lg:gap-5 p-5 transition-all ease-in-out"}>
               <div className={"flex flex-col gap-2"}>
                   <p className={"text-gray-700 font-bold"}>Search:</p>
-                  <input type="text" placeholder={"CO1107 / John Doe"} className={"p-2 rounded-md text-white"} value={ModuleCode} onChange={handleModuleCode}/>
+                  <input type="text" placeholder={"CO1107 / John Doe"} className={"p-2 rounded-md text-white"}
+                         value={ModuleCode} onChange={handleModuleCode}/>
               </div>
 
               <div className={"flex flex-col gap-2"}>
@@ -61,6 +62,14 @@ function FilterBar() {
                       <option value="t-year">This year</option>
                       <option value="l-year">Last year</option>
                   </select>
+              </div>
+
+              <div className={"flex flex-col gap-2"}>
+                  <div className="flex items-center pt-5">
+                      <input id="default-checkbox" type="checkbox" value=""
+                             className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                      <label htmlFor="default-checkbox" className="ms-2 text-sm font-medium text-gray-700">Optional Module</label>
+                  </div>
               </div>
 
           </div>
