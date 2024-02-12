@@ -2,7 +2,6 @@ import {Link, Routes, Route, useParams} from "react-router-dom";
 import { useState } from "react";
 
 import {CTable, CAccordionItem, CAccordionHeader, CAccordionBody, CAccordion} from '@coreui/react'
-import '@coreui/coreui/dist/css/coreui.min.css';
 
 import CO1107 from "../assets/ModuleImages/CO1107.jpg";
 
@@ -126,25 +125,19 @@ const ModulePage = () => {
                         <br/>
                         <CAccordion className={"min-w-full"}>
                             <CAccordionItem itemKey={1}>
-                                <CAccordionHeader className={"text-gray-700"}>Accordion Item #1</CAccordionHeader>
+                                <CAccordionHeader className={"text-gray-700 font-bold"}>Commitment hours per week?</CAccordionHeader>
                                 <CAccordionBody className={"text-gray-700 visible"}>
                                     <p>
-                                        <strong>This is the first item's accordion body.</strong> It is hidden by
-                                        default, until the
-                                        collapse plugin adds the appropriate classes that we use to style each element.
-                                        These classes
-                                        control the overall appearance, as well as the showing and hiding via CSS
-                                        transitions. You can
-                                        modify any of this with custom CSS or overriding our default variables. It's
-                                        also worth noting
-                                        that just about any HTML can go within the <code>.accordion-body</code>, though
-                                        the transition
-                                        does limit overflow.
+                                        <strong>8 hours per week excluding individual study time.</strong><br/>
+                                        These 16 hours are divided between Lectures, Seminars and Computer Labs.<br/>
+                                        Lectures: 4 hours per week<br/>
+                                        Seminars: 2 hours per week<br/>
+                                        Computer Labs: 2 hours per week<br/>
                                     </p>
                                 </CAccordionBody>
                             </CAccordionItem>
                             <CAccordionItem itemKey={2}>
-                                <CAccordionHeader className={"text-gray-700"}>Accordion Item #2</CAccordionHeader>
+                                <CAccordionHeader className={"text-gray-700 font-bold"}>Accordion Item #2</CAccordionHeader>
                                 <CAccordionBody className={"text-gray-700 visible"}>
                                     <p>
                                         <strong>This is the second item's accordion body.</strong> It is hidden by
@@ -162,7 +155,7 @@ const ModulePage = () => {
                                 </CAccordionBody>
                             </CAccordionItem>
                             <CAccordionItem itemKey={3}>
-                                <CAccordionHeader className={"text-gray-700"}>Accordion Item #3</CAccordionHeader>
+                                <CAccordionHeader className={"text-gray-700 font-bold"}>Accordion Item #3</CAccordionHeader>
                                 <CAccordionBody className={"text-gray-700 visible"}>
                                     <p>
                                         <strong>This is the second item's accordion body.</strong> It is hidden by

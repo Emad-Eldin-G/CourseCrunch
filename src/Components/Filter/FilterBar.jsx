@@ -25,7 +25,7 @@ function FilterBar() {
 
   return (
       <div id={"filterBar"} className={"w-full flex flex-col justify-center items-center mb-14"}>
-          <div className={"flex flex-row items-center justify-center gap-12 lg:gap-5 p-5 transition-all ease-in-out"}>
+          <div className={"flex flex-row items-center text-white justify-center gap-12 lg:gap-5 p-5 transition-all ease-in-out"}>
               <div className={"flex flex-col gap-2"}>
                   <p className={"text-gray-700 font-bold"}>Search:</p>
                   <input type="text" placeholder={"CO1107 / John Doe"} className={"p-2 rounded-md text-white"}
