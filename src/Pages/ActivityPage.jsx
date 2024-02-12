@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { motion } from "framer-motion"
 import {Route, Routes} from "react-router-dom";
 
 import increase from "../assets/upArrow.png"

@@ -1,5 +1,4 @@
 import {useEffect, useState} from 'react'
-import { motion } from "framer-motion"
 import {Link, Route, Routes} from "react-router-dom";
 import FilterBar from "../Components/Filter/FilterBar.jsx";
 import MobileFilter from "../Components/Filter/MobileFilter.jsx";
