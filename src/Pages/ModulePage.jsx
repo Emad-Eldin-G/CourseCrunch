@@ -1,13 +1,21 @@
 import {Link, Routes, Route, useParams} from "react-router-dom";
-import { useState } from "react";
+import {useEffect, useState} from "react";
 
 import {CTable, CAccordionItem, CAccordionHeader, CAccordionBody, CAccordion} from '@coreui/react'
+import '@coreui/coreui/dist/css/coreui.min.css';
+
+import module from "../data/Module.json";
 
 import CO1107 from "../assets/ModuleImages/CO1107.jpg";
 
 
 const ModulePage = () => {
     const { moduleCode } = useParams();
+    const [assesmentMenu, setAssesmentMenu] = useState(false)
+
+    const moduleData = module.find((module) => module.title === moduleCode)
+    console.log(moduleData)
+
     const columns = [
         {
             key: 'id',
@@ -63,55 +71,69 @@ const ModulePage = () => {
         }
     ]
 
+    const handleAssesment = () => {
+        setAssesmentMenu(!assesmentMenu)
+
+    }
+
     return (
         <div className={"w-full h-full flex items-center justify-center"}>
-            <div className="w-full h-full flex flex-col items-center justify-center gap-2 text-gray-700 pl-44 pr-44">
+            <div className="w-full h-full flex flex-col items-center justify-center gap-2 text-gray-700 pl-14 pr-14 md:pl-5 md:pr-5 transition-all ease-in-out">
 
-                <div className="h-auto col-span-2 row-span-1 p-2 flex flex-col items-center  ... ">
-                    <h1 className={"text-6xl font-bold"}>{moduleCode}</h1>
-                    <p className={"text-2xl font-bold"}>Object Oriented Programming</p>
-                    <p className={"text-xl font-bold"}>~ Mandatory module ❗️</p>
-                    <br/>
-                </div>
-
-                <div className={"flex flex-row text-left gap-14 p-3 min-h-full rounded-md"}>
-                    <div className={"flex flex-col gap-5 h-48 justify-between"}>
-                        <p className={"text-xl font-bold"}>
-                            Lecturers:
-                            <br/>
-                            <div className={"ml-5 text-l"}>
-                                <li className={"font-normal text-lg"}>Kim Min</li>
-                                <li className={"font-normal text-lg"}>Kareem Ahmad</li>
-                            </div>
-                        </p>
-                        <p className={"text-xl font-bold"}>
-                            Department:
-                            <br/>
-                            <li className={"font-normal text-lg"}>Computing and Mathematical Sciences</li>
-                        </p>
+                <div className={"mb-10"}>
+                    <div className="h-auto col-span-2 row-span-1 p-2 flex flex-col items-center  ... ">
+                        <h1 className={"text-6xl sm:text-4xl font-bold"}>{moduleCode}</h1>
+                        <p className={"text-2xl sm:text-xl font-bold"}>{moduleData.name}</p>
+                        <p className={"text-xl sm:text-lg font-bold"}>~ {moduleData.Obligation}</p>
+                        <br/>
                     </div>
 
-                    <div className={"flex flex-col gap-5 justify-between h-48"}>
-                        <p className={"text-xl font-bold"}>
-                            Year of Study:
-                            <br/>
-                            <li className={"font-normal text-lg"}>Y1 Module</li>
-                        </p>
-                        <p className={"text-xl font-bold"}>
-                            Last Updated:
-                            <br/>
-                            <li className={"font-normal text-lg"}>Last Year</li>
-                        </p>
+                    <div className={"flex flex-row text-left gap-14 p-3 min-h-full rounded-md"}>
+                        <div className={"flex flex-col gap-5 h-48 justify-between"}>
+                            <p className={"text-xl sm:text-lg font-bold"}>
+                                Lecturers:
+                                <br/>
+                                <div className={"ml-5 text-l"}>
+                                    {moduleData.lecturers.map((lecturer, index) => (
+                                        <li key={index} className={"font-normal text-lg sm:text-sm"}>{lecturer}</li>
+                                    )
+                                    )}
+                                </div>
+                            </p>
+                            <p className={"text-xl sm:text-lg font-bold"}>
+                                Department:
+                                <br/>
+                                <li className={"font-normal text-lg sm:text-sm"}>Computing and Mathematical Sciences</li>
+                            </p>
+                        </div>
+
+                        <div className={"flex flex-col justify-between h-48"}>
+                            <p className={"text-xl sm:text-lg font-bold"}>
+                                Year of Study:
+                                <br/>
+                                <li className={"font-normal text-lg sm:text-sm"}>Y1 Module</li>
+                            </p>
+                            <p className={"text-xl sm:text-lg font-bold"}>
+                                Last Updated:
+                                <br/>
+                                <li className={"font-normal text-lg sm:text-sm"}>Last Year</li>
+                            </p>
+                        </div>
                     </div>
                 </div>
 
 
                 <div className="row-span-3 col-span-2 flex flex-col items-center border-2...">
-                    <div>
-                        <p className={"text-gray-700 font-bold text-xl mr-auto"}>Assesment Overview: </p>
+                    <div className={"w-full"}>
+                        <button
+                            className={"w-36 rounded-md p-2 bg-gray-400 hidden sm:visible"}
+                            id={"growHover"}
+                            onClick={handleAssesment}>
+                            Open Assesment Overview
+                        </button>
+                        <p className={"text-gray-700 font-bold text-xl mr-auto sm:hidden"}>Assesment Overview: </p>
                         <br/>
-                        <CTable columns={columns} items={items}
-                                className={"w-full select-none transition-all ease-in-out"} hover/>
+                        <CTable columns={columns} items={items} className={"w-full select-none sm:hidden transition-all ease-in-out"} hover/>
                     </div>
 
                     <div>
@@ -120,10 +142,10 @@ const ModulePage = () => {
 
                     </div>
 
-                    <div className={"min-w-full"}>
+                    <div className={"w-full mb-44"}>
                         <p className={"text-gray-700 font-bold text-xl mr-auto"}>FAQs: </p>
                         <br/>
-                        <CAccordion className={"min-w-full"}>
+                        <CAccordion className={"w-full"}>
                             <CAccordionItem itemKey={1}>
                                 <CAccordionHeader className={"text-gray-700 font-bold"}>Commitment hours per week?</CAccordionHeader>
                                 <CAccordionBody className={"text-gray-700 visible"}>

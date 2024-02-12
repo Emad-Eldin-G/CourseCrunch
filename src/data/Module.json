@@ -1,6 +1,7 @@
 [
   {
     "title": "CO1107",
+    "name": "Object Oriented Programming",
     "imageSrc": "src/assets/ModuleImages/CO1107.jpg",
     "lecturers": ["John Doe", "Emily Smith"],
     "department": "Computing and Mathematical Sciences",
@@ -8,9 +9,11 @@
     "rating": [1, 1, 1, 1, 0.5],
     "lastUpdated": "This semester",
     "Obligation": "Mandatory module ❗"
+
   },
   {
     "title": "BFC101",
+    "name":  "Business and Financial Computing",
     "imageSrc": "src/assets/ModuleImages/BFC101.jpg",
     "lecturers": ["Richard Edwards", "Samantha Gray"],
     "department": "Computing and Mathematical Sciences",
@@ -21,6 +24,7 @@
   },
   {
     "title": "PF002",
+    "name":  "Programming Fundamentals 2",
     "imageSrc": "src/assets/ModuleImages/PF002.jpg",
     "lecturers": ["Emilia Stone", "Yung Si"],
     "department": "Computing and Mathematical Sciences",
