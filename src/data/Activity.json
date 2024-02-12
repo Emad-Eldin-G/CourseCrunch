@@ -1,30 +1,35 @@
 [
   {
-    "text": "CO117 rating gone up by 5% since last week",
+    "text": "CO1107 rating gone up by 5% since last week",
+    "key": "CO1107",
     "department": "Computing and Mathematical Sciences",
     "row3": 1,
     "pic": "increase"
   },
   {
     "text": "Dr. John Doe's popularity has gone up by 36% since Monday",
+    "key": "John Doe",
     "department": "Arts and Humanities",
     "row3": "AR001, HU901",
     "pic": "increase"
   },
   {
-    "text": "C206 rating have fallen by 16% since last week",
+    "text": "BFC101 rating have fallen by 16% since last week",
+    "key": "BFC101",
     "department": "Computing and Mathematical Sciences",
     "row3": 1,
     "pic": "decrease"
   },
   {
-    "text": "CO117 rating gone up by 5% since last week",
+    "text": "PF002 rating gone up by 5% since last week",
+    "key": "PF002",
     "department": "Computing and Mathematical Sciences",
     "row3": 1,
     "pic": "increase"
   },
   {
-    "text": "CO117 rating gone up by 5% since last week",
+    "text": "CO1107 rating gone up by 5% since last week",
+    "key": "CO1107",
     "department": "Computing and Mathematical Sciences",
     "row3": 1,
     "pic": "increase"

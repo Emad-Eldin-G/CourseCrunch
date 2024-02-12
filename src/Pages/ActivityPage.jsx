@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import {Route, Routes} from "react-router-dom";
+import {Link, Route, Routes} from "react-router-dom";
 
 import increase from "../assets/upArrow.png"
 import decrease from "../assets/downArrow.png"
@@ -40,10 +40,19 @@ function ActivityPage() {
                                 </p>
                             }
 
-                            <button className={"rounded-md bg-gray-700 text-white p-2 max-w-28 text-sm mt-2"}
-                                    id={"growHover"}>More
-                                details
-                            </button>
+                            {typeof activity.row3 === "number" ?
+                                <Link to={"/modules/" + activity.key}>
+                                    <button className={"bg-gray-700 p-2 rounded-md text-white mt-2"} id={"growHover"}>
+                                        More details
+                                    </button>
+                                </Link>
+                                :
+                                <Link to={"/Lecturers/" + activity.key}>
+                                    <button className={"bg-gray-700 p-2 rounded-md text-white mt-2"} id={"growHover"}>
+                                        More details
+                                    </button>
+                                </Link>
+                            }
 
                         </div>
 
