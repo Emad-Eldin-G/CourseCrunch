@@ -29,32 +29,44 @@ const MobileNav = () => {
         </div>
 
             {showMenu ?
-                <div className={"fixed w-1/2 h-full z-50 right-0 top-0 flex flex-col justify-between items-center align-middle text-center bg-black bg-opacity-60 backdrop-blur-sm"}>
-                    <div className={"flex flex-row justify-end items-end ml-auto"}>
+                <div className={"fixed w-1/2 h-full z-50 right-0 top-0 flex flex-col justify-between items-center align-middle text-center bg-black bg-opacity-20 backdrop-blur-sm"}>
+                    <div className={"flex flex-row justify-end items-end ml-auto p-2"}>
                         <img alt={"close"} src={closeX} className={"w-8 h-8"} onClick={() => setShowMenu(!showMenu)}/>
                     </div>
 
                     <div className={"w-full basis-1/4 flex justify-center items-center"}>
                         <Link to="/">
-                            <button className={"w-36 rounded-md p-2 bg-gray-400"}>Home</button>
+                            <button className={"w-36 rounded-md p-2 bg-gray-400"}
+                            onClick={() => setShowMenu(!showMenu)}>
+                                Home
+                            </button>
                         </Link>
                     </div>
 
                     <div className={"w-full basis-1/4 flex justify-center items-center"}>
                         <Link to="/modules">
-                            <button className={"w-36 rounded-md p-2 bg-gray-400"}>Modules</button>
+                            <button className={"w-36 rounded-md p-2 bg-gray-400"}
+                            onClick={() => setShowMenu(!showMenu)}>
+                                Modules
+                            </button>
                         </Link>
                     </div>
 
                     <div className={"w-full basis-1/4 flex justify-center items-center"}>
                         <Link to="/Lecturers">
-                            <button className={"w-36 rounded-md p-2 bg-gray-400"}>Lecturers</button>
+                            <button className={"w-36 rounded-md p-2 bg-gray-400"}
+                            onClick={() => setShowMenu(!showMenu)}>
+                                Lecturers
+                            </button>
                         </Link>
                     </div>
 
                     <div className={"w-full basis-1/4 flex justify-center items-center"}>
                         <Link to={"/profile"}>
-                            <button className={"w-36 rounded-md p-2 bg-gray-400"}>Profile</button>
+                            <button className={"w-36 rounded-md p-2 bg-gray-400"}
+                            onClick={() => setShowMenu(!showMenu)}>
+                                Profile
+                            </button>
                         </Link>
                     </div>
                 </div>
