@@ -5,6 +5,9 @@ import {CTable, CAccordionItem, CAccordionHeader, CAccordionBody, CAccordion} fr
 import '@coreui/coreui/dist/css/coreui.min.css';
 
 import module from "../data/Module.json";
+import comments from "../data/Comments.json";
+
+import userIcon from "../assets/profileIcon.png";
 
 import CO1107 from "../assets/ModuleImages/CO1107.jpg";
 
@@ -136,9 +139,23 @@ const ModulePage = () => {
                         <CTable columns={columns} items={items} className={"w-full select-none sm:hidden transition-all ease-in-out"} hover/>
                     </div>
 
-                    <div>
+                    <div className={"w-full mb-16 mt-12"}>
                         <p className={"text-gray-700 font-bold text-xl mr-auto"}>What the students say: </p>
                         <br/>
+                        <div className={"flex flex-row md:flex-col gap-5 sm-p-5"}>
+                            {comments.map((comment, index) => (
+                                <div key={index} id={"growHover"} className={"flex flex-col w-1/3 sm:w-full gap-2 border-grey border-2 p-3 rounded-md transition-all ease-in-out"}>
+                                    <div className={"flex flex-row items-center"}>
+                                        <img src={userIcon} alt={"userIcon"} className={"mr-2 w-10 h-10 sm:w-7 sm:h-7"}/>
+                                        <p className={"text-gray-700 font-bold md:text-sm"}>{comment.User}</p>
+                                    </div>
+                                        <hr className={"w-full"}/>
+                                    <div>
+                                        <p className={"text-gray-700"}>{comment.Comment}</p>
+                                    </div>
+                                </div>
+                            ))}
+                        </div>
 
                     </div>
 
@@ -159,38 +176,22 @@ const ModulePage = () => {
                                 </CAccordionBody>
                             </CAccordionItem>
                             <CAccordionItem itemKey={2}>
-                                <CAccordionHeader className={"text-gray-700 font-bold"}>Accordion Item #2</CAccordionHeader>
+                                <CAccordionHeader className={"text-gray-700 font-bold"}>Which buildings do lectures and seminars take place?</CAccordionHeader>
                                 <CAccordionBody className={"text-gray-700 visible"}>
                                     <p>
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default, until the
-                                        collapse plugin adds the appropriate classes that we use to style each element.
-                                        These classes
-                                        control the overall appearance, as well as the showing and hiding via CSS
-                                        transitions. You can
-                                        modify any of this with custom CSS or overriding our default variables. It's
-                                        also worth noting
-                                        that just about any HTML can go within the <code>.accordion-body</code>, though
-                                        the transition
-                                        does limit overflow.
+                                        <strong>Most lectures and seminars take place in the Sir Bob Burgess building.</strong><br/>
+                                        However, there has been instances were seminars wold take place in the Field Johnson Building,
+                                        which is a 10 minute walk from the Sir Bob Burgess building.
                                     </p>
                                 </CAccordionBody>
                             </CAccordionItem>
                             <CAccordionItem itemKey={3}>
-                                <CAccordionHeader className={"text-gray-700 font-bold"}>Accordion Item #3</CAccordionHeader>
+                                <CAccordionHeader className={"text-gray-700 font-bold"}>Is this module more theoretical or functional</CAccordionHeader>
                                 <CAccordionBody className={"text-gray-700 visible"}>
                                     <p>
-                                        <strong>This is the second item's accordion body.</strong> It is hidden by
-                                        default, until the
-                                        collapse plugin adds the appropriate classes that we use to style each element.
-                                        These classes
-                                        control the overall appearance, as well as the showing and hiding via CSS
-                                        transitions. You can
-                                        modify any of this with custom CSS or overriding our default variables. It's
-                                        also worth noting
-                                        that just about any HTML can go within the <code>.accordion-body</code>, though
-                                        the transition
-                                        does limit overflow.
+                                        <strong>57% of students who have taken {moduleCode} thought it was more functional</strong> <br/>
+                                        {moduleCode} is a very balanced module with lectures that focus on the theoretical aspects of the module,<br/>
+                                        and seminars that focus on the practical aspects of the module.
                                     </p>
                                 </CAccordionBody>
                             </CAccordionItem>

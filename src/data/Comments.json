@@ -1,0 +1,20 @@
+[
+  {
+    "User": "Anonymous First Year Student",
+    "Course": "Software Engineering",
+    "Comment": "I found the Object Oriented module to be very intresting and useful, and it was the reason why I started learning SpringBoot. I gave it 4 stars though as I would have liked the TAs to be more engaging and helpful.",
+    "Rating": [1, 1, 1, 1]
+  },
+  {
+    "User": "Anonymous Second Year Student",
+    "Course": "Computer Science",
+    "Comment": "I was initially very excited to learn about Java, however I did not find the transition from Python to Java to be very smooth. I would have liked more support from the TAs and the lecturer. I gave it 3 stars.",
+    "Rating": [1, 1, 1]
+  },
+    {
+        "User": "Anonymous First Year Student",
+        "Course": "Computer Science",
+        "Comment": "This module is a MUST for every computer science student. OOP concepts are very important, and the Course Work made it fun and easy to understand",
+        "Rating": [1, 1, 1, 1, 0.5]
+    }
+]
