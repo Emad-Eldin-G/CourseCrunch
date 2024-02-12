@@ -32,10 +32,10 @@ function ModulesPage() {
         <div id={"wrapper"} className={"w-full h-full"}>
             {isMobile ? <MobileFilter /> : <FilterBar />}
             <div id={"Module-Cards"}
-                 className={"w-full h-full p-10 flex flex-row flex-wrap sm:flex-col gap-10 sm:gap-5 items-center justify-center text-gray-700"}>
+                 className={"w-full h-full p-10 mb-24 flex flex-row flex-wrap sm:flex-col gap-10 sm:gap-5 items-center justify-center text-gray-700"}>
 
                     {modules.map((module, index) => (
-                        <div id={"module"} name={"module"} key={index} className={"flex flex-col w-96 sm:h-auto border-grey border-2 p-5 rounded-md"}>
+                        <div id={"module"} key={index} className={"flex flex-col w-96 min-h-[625px] border-grey border-2 p-5 rounded-md"}>
                             <p className={"text-3xl text-gray-700 font-bold mb-5 select-none"}>{module.title}</p>
                             <img src={module.imageSrc} alt={"moduleImage"} className={"max-w-full aspect-video rounded-md"}/>
                             <br/>
@@ -62,7 +62,7 @@ function ModulesPage() {
                                 }
                             </div>
 
-                            <Link to={`/modules/${module.title}`}>
+                            <Link to={`/modules/${module.title}`} className={"bottom-0 mt-auto"}>
                                 <button className={"w-36 rounded-md p-2 bg-gray-400 mt-auto"} id={"growHover"}>Find out more</button>
                             </Link>
                         </div>

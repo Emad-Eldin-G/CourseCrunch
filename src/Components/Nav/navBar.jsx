@@ -10,7 +10,9 @@ const NavBar = () => {
         <div className={"sticky top-0 z-50"}>
             <ul className={"w-full h-24 inline-flex list-none p-5 items-center mb-10"}>
                 <li className={"text-gray-700"}>
-                    <img src={logo} alt="logo" className={"h-10 w-10 hover:animate-pulse"}/>
+                    <Link to={"/"}>
+                        <img src={logo} alt="logo" className={"h-10 w-10 hover:animate-pulse"}/>
+                    </Link>
                 </li>
 
                 <div

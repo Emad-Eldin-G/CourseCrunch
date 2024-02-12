@@ -17,7 +17,7 @@ const MobileNav = () => {
         <>
         <div className={"w-full h-16 flex flex-row items-center justify-between p-5 sticky"}>
             <Link to="/">
-                <img src={logo} alt="logo" className={"h-10 w-10 hover:animate-pulse"}/>
+                <img src={logo} alt="logo" className={"h-10 w-10"}/>
             </Link>
 
             <div className={"w-8"}>

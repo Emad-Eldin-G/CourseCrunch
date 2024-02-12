@@ -10,6 +10,8 @@ import comments from "../data/Comments.json";
 import userIcon from "../assets/profileIcon.png";
 
 import CO1107 from "../assets/ModuleImages/CO1107.jpg";
+import halfstar from "../assets/halfstar.svg";
+import star from "../assets/star.svg";
 
 
 const ModulePage = () => {
@@ -87,9 +89,11 @@ const ModulePage = () => {
                     <div className="h-auto col-span-2 row-span-1 p-2 flex flex-col items-center  ... ">
                         <h1 className={"text-6xl sm:text-4xl font-bold"}>{moduleCode}</h1>
                         <p className={"text-2xl sm:text-xl font-bold"}>{moduleData.name}</p>
-                        <p className={"text-xl sm:text-lg font-bold"}>~ {moduleData.Obligation}</p>
+                        <p className={"text-xl sm:text-lg font-bold"}>{moduleData.Obligation}</p>
+
                         <br/>
                     </div>
+
 
                     <div className={"flex flex-row text-left gap-14 p-3 min-h-full rounded-md"}>
                         <div className={"flex flex-col gap-5 h-48 justify-between"}>
@@ -98,15 +102,16 @@ const ModulePage = () => {
                                 <br/>
                                 <div className={"ml-5 text-l"}>
                                     {moduleData.lecturers.map((lecturer, index) => (
-                                        <li key={index} className={"font-normal text-lg sm:text-sm"}>{lecturer}</li>
-                                    )
+                                            <li key={index} className={"font-normal text-lg sm:text-sm"}>{lecturer}</li>
+                                        )
                                     )}
                                 </div>
                             </p>
                             <p className={"text-xl sm:text-lg font-bold"}>
                                 Department:
                                 <br/>
-                                <li className={"font-normal text-lg sm:text-sm"}>Computing and Mathematical Sciences</li>
+                                <li className={"font-normal text-lg sm:text-sm"}>Computing and Mathematical Sciences
+                                </li>
                             </p>
                         </div>
 

@@ -1,0 +1,29 @@
+[
+  {
+    "name": "John Doe",
+    "imageSrc": "src/assets/ModuleImages/CO1107.jpg",
+    "modules": ["CO1101"],
+    "department": "Computing and Mathematical Sciences",
+    "rating": [1, 1, 1, 1, 0.5],
+    "experience": 4
+
+  },
+  {
+    "name": "Emily Smith",
+    "imageSrc": "src/assets/ModuleImages/BFC101.jpg",
+    "modules": ["PF001"],
+    "department": "Humanities and Arts",
+    "rating": [1, 1, 1, 0.5],
+    "experience": 9
+
+  },
+  {
+    "name":  "Yung Si",
+    "imageSrc": "src/assets/ModuleImages/PF002.jpg",
+    "modules": ["BFC101"],
+    "department": "Computing and Mathematical Sciences",
+    "rating": [1, 1, 1, 1],
+    "experience": 6
+
+  }
+]
