@@ -66,13 +66,21 @@ const ModulePage = () => {
 
     return (
         <div className={"w-full h-full flex items-center justify-center"}>
-            <div className="w-full h-full grid grid-rows-4 grid-flow-col gap-2 text-gray-700 pl-10 pr-10">
-                <div className="row-span-4 ...">
-                    <div className={"flex flex-col gap-7 p-3 min-h-full rounded-md"}>
+            <div className="w-full h-full flex flex-col items-center justify-center gap-2 text-gray-700 pl-44 pr-44">
+
+                <div className="h-auto col-span-2 row-span-1 p-2 flex flex-col items-center  ... ">
+                    <h1 className={"text-6xl font-bold"}>{moduleCode}</h1>
+                    <p className={"text-2xl font-bold"}>Object Oriented Programming</p>
+                    <p className={"text-xl font-bold"}>~ Mandatory module ❗️</p>
+                    <br/>
+                </div>
+
+                <div className={"flex flex-row text-left gap-14 p-3 min-h-full rounded-md"}>
+                    <div className={"flex flex-col gap-5 h-48 justify-between"}>
                         <p className={"text-xl font-bold"}>
                             Lecturers:
                             <br/>
-                            <div className={"ml-5"}>
+                            <div className={"ml-5 text-l"}>
                                 <li className={"font-normal text-lg"}>Kim Min</li>
                                 <li className={"font-normal text-lg"}>Kareem Ahmad</li>
                             </div>
@@ -82,6 +90,9 @@ const ModulePage = () => {
                             <br/>
                             <li className={"font-normal text-lg"}>Computing and Mathematical Sciences</li>
                         </p>
+                    </div>
+
+                    <div className={"flex flex-col gap-5 justify-between h-48"}>
                         <p className={"text-xl font-bold"}>
                             Year of Study:
                             <br/>
@@ -92,16 +103,9 @@ const ModulePage = () => {
                             <br/>
                             <li className={"font-normal text-lg"}>Last Year</li>
                         </p>
-                        <p className={"text-xl font-bold"}>Mandatory module ❗️</p>
                     </div>
                 </div>
 
-                <div className="h-auto col-span-2 row-span-1 p-2 flex flex-col items-center  ... ">
-                    <h1 className={"text-6xl font-bold"}>{moduleCode}</h1>
-                    <p className={"text-2xl font-bold"}>Object Oriented Programming</p>
-                    <br/>
-                    <img src={CO1107} alt={"moduleImage"} className={"w-1/2 aspect-video mb-5 rounded-md"}/>
-                </div>
 
                 <div className="row-span-3 col-span-2 flex flex-col items-center border-2...">
                     <div>
@@ -121,46 +125,61 @@ const ModulePage = () => {
                         <p className={"text-gray-700 font-bold text-xl mr-auto"}>FAQs: </p>
                         <br/>
                         <CAccordion className={"min-w-full"}>
-                        <CAccordionItem itemKey={1}>
-                            <CAccordionHeader className={"text-gray-700"}>Accordion Item #1</CAccordionHeader>
-                            <CAccordionBody className={"text-gray-700 visible"}>
-                                <p>
-                                <strong>This is the first item's accordion body.</strong> It is hidden by default, until the
-                                collapse plugin adds the appropriate classes that we use to style each element. These classes
-                                control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                                modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                                that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                                does limit overflow.
-                                </p>
-                            </CAccordionBody>
-                        </CAccordionItem>
-                        <CAccordionItem itemKey={2}>
-                            <CAccordionHeader className={"text-gray-700"}>Accordion Item #2</CAccordionHeader>
-                            <CAccordionBody className={"text-gray-700 visible"}>
-                                <p>
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                                collapse plugin adds the appropriate classes that we use to style each element. These classes
-                                control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                                modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                                that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                                does limit overflow.
-                                </p>
-                            </CAccordionBody>
-                        </CAccordionItem>
-                        <CAccordionItem itemKey={3}>
-                            <CAccordionHeader className={"text-gray-700"}>Accordion Item #3</CAccordionHeader>
-                            <CAccordionBody className={"text-gray-700 visible"}>
-                                <p>
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
-                                collapse plugin adds the appropriate classes that we use to style each element. These classes
-                                control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                                modify any of this with custom CSS or overriding our default variables. It's also worth noting
-                                that just about any HTML can go within the <code>.accordion-body</code>, though the transition
-                                does limit overflow.
-                                </p>
-                            </CAccordionBody>
-                        </CAccordionItem>
-                    </CAccordion>
+                            <CAccordionItem itemKey={1}>
+                                <CAccordionHeader className={"text-gray-700"}>Accordion Item #1</CAccordionHeader>
+                                <CAccordionBody className={"text-gray-700 visible"}>
+                                    <p>
+                                        <strong>This is the first item's accordion body.</strong> It is hidden by
+                                        default, until the
+                                        collapse plugin adds the appropriate classes that we use to style each element.
+                                        These classes
+                                        control the overall appearance, as well as the showing and hiding via CSS
+                                        transitions. You can
+                                        modify any of this with custom CSS or overriding our default variables. It's
+                                        also worth noting
+                                        that just about any HTML can go within the <code>.accordion-body</code>, though
+                                        the transition
+                                        does limit overflow.
+                                    </p>
+                                </CAccordionBody>
+                            </CAccordionItem>
+                            <CAccordionItem itemKey={2}>
+                                <CAccordionHeader className={"text-gray-700"}>Accordion Item #2</CAccordionHeader>
+                                <CAccordionBody className={"text-gray-700 visible"}>
+                                    <p>
+                                        <strong>This is the second item's accordion body.</strong> It is hidden by
+                                        default, until the
+                                        collapse plugin adds the appropriate classes that we use to style each element.
+                                        These classes
+                                        control the overall appearance, as well as the showing and hiding via CSS
+                                        transitions. You can
+                                        modify any of this with custom CSS or overriding our default variables. It's
+                                        also worth noting
+                                        that just about any HTML can go within the <code>.accordion-body</code>, though
+                                        the transition
+                                        does limit overflow.
+                                    </p>
+                                </CAccordionBody>
+                            </CAccordionItem>
+                            <CAccordionItem itemKey={3}>
+                                <CAccordionHeader className={"text-gray-700"}>Accordion Item #3</CAccordionHeader>
+                                <CAccordionBody className={"text-gray-700 visible"}>
+                                    <p>
+                                        <strong>This is the second item's accordion body.</strong> It is hidden by
+                                        default, until the
+                                        collapse plugin adds the appropriate classes that we use to style each element.
+                                        These classes
+                                        control the overall appearance, as well as the showing and hiding via CSS
+                                        transitions. You can
+                                        modify any of this with custom CSS or overriding our default variables. It's
+                                        also worth noting
+                                        that just about any HTML can go within the <code>.accordion-body</code>, though
+                                        the transition
+                                        does limit overflow.
+                                    </p>
+                                </CAccordionBody>
+                            </CAccordionItem>
+                        </CAccordion>
 
                     </div>
 
