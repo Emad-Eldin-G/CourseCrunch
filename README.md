@@ -16,5 +16,5 @@ npm run dev
 
 ## Check it out live  
 
-Go to [CourseCrunch](course-crunch.vercel.app)  
+Go to [CourseCrunch](https://course-crunch.vercel.app/)  
 > Note that some images may not appear on the live vercel deployment as static files are not configured properly, this is a MVP
