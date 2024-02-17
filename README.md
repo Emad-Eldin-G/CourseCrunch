@@ -1,4 +1,4 @@
-# CourseCrunch  
+# CourseCrunch | IBM HackLeicester 2024
 <img src="https://github.com/Emad-Eldin-G/CourseCrunch/blob/main/public/logoSquare.png" width=75 />  
   
 Your unbiased academic partner 📚🧠
